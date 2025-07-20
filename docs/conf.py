@@ -35,7 +35,7 @@ html_context = {
     'display_github': True,
     'github_user': 'goppuchino',
     'github_repo': 'oag-doc',
-    'github_version': 'ru',
+    'github_version': 'en',
     'conf_py_path': '/docs/',
     'languages': {
         'en': 'English',
