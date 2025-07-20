@@ -1,4 +1,4 @@
-OpenAPI генератор для Go
+OpenAPI Generator for Go
 ========================
 
 .. image:: https://img.shields.io/github/go-mod/go-version/goppuchino/oag
@@ -20,17 +20,16 @@ OpenAPI генератор для Go
    :align: right
    :width: 180px
 
-Быстрый и легкий инструмент для **генерации чистых спецификаций OpenAPI 3, соответствующих стандартам** напрямую из
-вашего Go кода. Идеально подходит для:
+A fast and lightweight tool to **generate clean, standards-compliant OpenAPI 3 specifications** directly from your Go code. Perfect for:
 
-* Автоматического документирования REST API 🏗️
-* Устранения ручной поддержки спецификаций ✨
-* Обеспечения совместимости со Swagger UI, Postman и другими инструментами 🔌
+* Auto-documenting REST APIs 🏗️
+* Eliminating manual spec maintenance ✨
+* Ensuring compatibility with Swagger UI, Postman & more 🔌
 
-| Возможности:
-| ✅ Автоматическое сопоставление структур и схем
-| ✅ Встроенная валидация и проверка
-| ✅ Поддержка пользовательских шаблонов
+| Features:
+| ✅ Struct-to-Schema auto-mapping
+| ✅ Built-in validation & linting
+| ✅ Custom template support
 
 .. code-block:: go
    :linenos:
@@ -43,7 +42,7 @@ OpenAPI генератор для Go
    // @param id path isRequired User ID for get user information
    func GetUser(w http.ResponseWriter, r *http.Request) { ... }
 
-**Начало работы:**
+**Get started:**
 
 .. code-block:: shell
 
@@ -51,4 +50,4 @@ OpenAPI генератор для Go
    $ cd <Your Project>
    $ oag
 
-*Потому что никто не любит писать YAML вручную.* 🐹
+*Because nobody loves writing YAML by hand.* 🐹
