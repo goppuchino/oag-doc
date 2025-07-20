@@ -34,7 +34,7 @@ html_theme_options =  {
 html_context = {
     'display_github': True,
     'github_user': 'goppuchino',
-    'github_repo': 'oag-go-gen',
+    'github_repo': 'oag-doc',
     'github_version': 'ru',
     'conf_py_path': '/docs/',
     'languages': {
