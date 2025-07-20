@@ -32,6 +32,11 @@ html_theme_options =  {
     'flyout_display': 'attached',
 }
 html_context = {
+    'display_github': True,
+    'github_user': 'goppuchino',
+    'github_repo': 'oag-go-gen',
+    'github_version': 'ru',
+    'conf_py_path': '/docs/',
     'languages': {
         'en': 'English',
         'ru': 'Русский',
